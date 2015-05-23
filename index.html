@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Alex Hernandez</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!DOCTYPE html>
+
+<head>
+  <title>Alex's Notes</title>
+  <link rel="stylesheet" type="text/css" href="Intro-to-style.css">  
+</head>
+<body> 
+  <div>
+    <div class="TOC">
+      <h1>Table of Contents</h1>
+      <ol>
+        <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+          <ul>
+            <li><a href="#lesson-1-1">Part 1: How the Web works</a></li>
+            <li><a href="#lesson-1-2">Part 2: The Basics, tags and elements</a></li>
+            <li><a href="#lesson-1-3">Five take aways from the lesson</a></li>
+            <li><a href="#lesson-1-4">Avoiding Repetition</a></li>
+          </ul>
+        </li> 
+        <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Creating a Structured Document</a>
+          <ul>
+            <li><a href="#lesson-2-1">HTML vs. CSS</a></li>
+            <li><a href="#lesson-2-2">Box Sizing</a></li>
+            <li><a href="#lesson-2-3">The Box Model</a></li>
+            <li><a href="#lesson-2-4">FlexBox</a></li>
+            <li><a href="#lesson-2-5">Code,Test,Refine</a></li>
+          </ul>
+        </li> 
+      </ol>
+    </div>
+
+    <div class="lesson">
+    <h1 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h1>
+      <div class="concept" id="lesson-1-1">
+      <h2 class="concept-title">Part 1: How the Web works</h2>
+        <div class="concept-description">  
+          <p>
+            In part 1 you will develop enough <em>technological empathy</em> 
+            to understand what happens when you open (or create) a web page. 
+            Specifically, you'll gain:
+          </p>
+          
+          <p>
+            Basic understanding of how the internet works.
+          </p>
+          
+          <p>
+            Understanding of how <b>users, computers, servers, http,</b> 
+            and <b>the internet</b> all fit together.
+          </p>
+      </div>
+    </div>
+          
+      <div class="concept" id="lesson-1-2">    
+      <h2 class="concept-title">Part 2: The Basics, tags and elements</h2>
+        <div class="concept-description">
+        <p>
+          In part 2 you will use <b>HTML tags</b> to create a simple 
+          <b>HTML document</b> that a browser can display as a web page.
+        </p>
+          <div>
+            <h3>The basics of the Web.</h3>  
+            <ol>
+              <li>The  Web- Collections of HTML documents.</li>
+              <li>URLs.</li>
+              <li>HTTP- protocol your web browser uses to communicate with 
+              servers.</li>
+              <li>Web applications.</li>
+              <li>HTML- <em>HyperText-Markup-Language.</em></li>
+            </ol>
+            HTML is made up of:
+            <ul>
+              <li>text content- what you see.</li>
+              <li>mark up- what it looks like.</li>
+              <li>references to other documents- e.g. images and videos.</li>
+              <li>links to other pages.</li>
+            </ul>
+          </div>
+        </div>
+      </div>    
+        
+      <div class="concept" id="lesson-1-3">  
+      <h2 class="concept-title">Five take aways from the lesson</h2>
+        <div class="concept-description">
+          
+          <div>
+          <h3>1- What a Web Page is</h3>
+            <p>
+              A web page is a text document written in a language called HTML. 
+              Web browsers read these documents, and then interpret and display them.
+            </p>
+          </div>
+          
+          <div>
+          <h3>2 - How Coding Works</h3>
+            <p>
+              Coding happens when programmers write text in a language that a 
+              computer can understand. The computer can then follow the instructions 
+              the programmer wrote.
+            </p>
+          </div>
+
+          <div>
+          <h3>3 - Computers are Stupid</h3>
+            <p>
+              Programmers need to write <em>exactly</em> the way a computer 
+              understands (also known as writing with correct "syntax"). 
+            </p>
+          </div>
+      
+          <div>
+          <h3>4 - Programmers Can't Remember Everything</h3>
+            <p>
+               There are too many details to keep everything in your head. 
+               And that's okay. If you forget how to make text italic in HTML, you 
+               can always just look it up.
+            </p>
+          </div>
+
+          <div>
+          <h3>5 - Basic HTML Vocabulary</h3>
+            <p>
+              You will be using HTML in the next few lessons, so it will be helpful
+              if you're comfortable with the jargon.
+            </p>
+       
+            <ul>
+              <li><b>Tag:</b> 
+              An HTML tag is always contained within angled brackets. 
+              Most tags have an opening tag and a closing tag. Some tags (called 
+              "void" tags) do not require a closing tag.</li> 
+              <li><b>Element:</b> 
+              An HTML element refers to everything within a set 
+              of opening and closing tags.</li>
+              <li><b>Attribute:</b> This is a property of an HTML element</li>
+            </ul>
+          </div>
+        </div>   
+      </div>
+
+      <div class="concept" id="lesson-1-4">
+      <h2 class="concept-title">Avoiding Repetition</h2>
+        <div class="concept-description">
+          <ul>
+            <li>Avoiding repetition is important for a variety of reasons.</li>
+            <li><b>Avoiding Errors:</b> When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't diligently make that same change everywhere the repeated code appears, problems will arise.</li>
+            <li><b>Consistency:</b> In this web page, I wanted every lesson to look the same. Instead of manually giving each one the same style, I was able to assign each lesson <b>div</b> the same <b>class</b> and then specify the style for that class in only one place! By avoiding repetition, it's now very easy for me to make changes to this style.</li>
+          </ul>
+        </div>  
+      </div>
+    </div>
+
+    <div class="lesson">
+    <h1 id="lesson-2">Lesson 2: Creating a Structured Document</h1>
+      <div>
+        <p style="margin-left: 15px;">
+          Think of a website like a house, the HTML files are the structure similar to the walls in a house. CSS files are the style of your house, the color of the carpets or the walls. Javascript are the functional components such as a garage door or a remote to your tv. they are changing some element to your house.
+        </p>
+      </div>
+
+      <div class="concept" id="lesson-2-1">
+        <h2 class="concept-title">HTML vs. CSS</h2>
+        <div class="concept-description">
+          <h3>HTML: language of the Web</h3>
+          <div>
+            <ul>
+              <li>HTML controls the "<b>structure</b>" of a web page.</li>
+              <li>It has specific and rules.</li>
+              <li>The basic word in HTML is <em>tag</em>. The browser turns HTML <em>tag</em> into <em>elements</em> that form a tree. It knows how to do this because of <b>DOM</b> (<b>D</b>ocument <b>O</b>bject <b>M</b>odel).</li>
+              <li><b>DOM</b> is the standard way of interacting with tags and elements in HTML.</li>
+              <li>When programmers talk about the "<b>DOM</b>" (Document Object Model) they are talking about the tree-like structure of a page</li>
+              <li>The type of tag determines the type of element.</li>
+              <li>DIV tags are used to create boxes.</li>
+            </ul>
+          </div>
+
+          <h3>CSS: the style in HTML</h3>
+          <div>
+            <ul>
+              <li>CSS controls the "<b>style</b>" of a page (how it looks).</li>
+              <li>CSS stands for "<em>Cascading Style Sheets</em>".</li>
+              <li>CSS allows you to use a specific syntax and rules to determine how elements look on the page. I.E size of font.</li>
+              <li>With CSS the most specific rule is applied to every element.</li>
+              <li>The word <b>Cascading</b>, in "<em>Cascading Style Sheets</em>", means that the most specific rule applies. You go down through all the rules until you find the rule that applies specifically to the element.</li>
+              <li>Inheritance is the mechanism by which properties are applied not only to a specified element, but also to its descendants.</li>
+              <li>Descendant elements may inherit CSS property values from any ancestor element enclosing them. In general, descendant elements inherit text-related properties, but box-related properties are not inherited.</li>
+              <li>Properties that can be inherited are <b>color, font, letter-spacing, line-height, list-style, text-align, text-indent, text-transform, visibility, white-space and word-spacing</b>.</li>
+              <li>Properties that cannot be inherited are <b>background, border, display, float and clear, height and width, margin, min- and max-height and -width, outline, overflow, padding, position, text-decoration, vertical-align and z-index</b>.</li>
+              <li>Inheritance prevents certain properties from being declared over and over again in a style sheet, allowing the <em>software developers</em> to write less CSS.</li>
+              <li>Examples of inheritance can be found at this <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">web page</a>.</li> 
+              <li>In CSS  you first write what is called a "<b>selector</b>" and this defines what elements of the page a particular style applies to.</li>
+              <li>This is a really good article about <a href="https://css-tricks.com/how-css-selectors-work/">selectors</a>.</li>
+            </ul>   
+          </div>
+        </div>
+      </div>  
+        
+      <div class="concept" id="lesson-2-2">
+        <h2 class="concept-title">Box Sizing</h2>
+        <div class="concept-description">
+          <div>
+            <p>
+              There are four main points that need to be addressed about box sizing.
+            </p>
+            <ol>
+              <li>HTML elements are boxes and each box has 4 components.</li>
+              <li>Because there are so many components to each box, it can often be hard to get the size of a box just right.</li>
+              <li>There are two techniques you can use to help deal with sizing issues.</li>
+            </ol>
+            <ul>
+              <li>Set sizes in terms of percentages rather than pixels.</li>
+              <li>Set the <b>box-sizing</b> attribute to <b>border-box</b> for every element</li>
+              <li>Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently</li>
+            </ul>
+          </div>  
+
+          <h3>Box Positioning</h3>
+          <div>
+            <ol>
+              <li>Divs are <b>block</b> elements (as opposed to <b>inline</b>), so by default they take up the entire width of a page.</li>
+              <li>Adding the rule <b>display: flex;</b> to the appropriate CSS will override this behavior and let Divs appear next to each other.</li>
+            </ol>
+          </div>  
+        </div>
+      </div>
+        
+      <div class="concept" id="lesson-2-3">
+        <h2 class="concept-title">The Box Model</h2>
+        <div class="concept-description">
+          <ul>
+            <li>The <b>Margin</b> is the outer most layer of the box.</li>
+            <li>The <b>Border</b> sits inside of the Margin.</li>
+            <li>The <b>Padding</b> sits inside of the Border and directly protects the content.</li>
+            <li>The <b>Content</b> is similar to the nucleus of the box.</li>
+          </ul>
+        </div>
+      </div>
+        
+      <div class="concept" id="lesson-2-4">
+        <h2 class="concept-title">FlexBox</h2>
+        <div class="concept-description">
+          <ul>
+            <li>This is a great article on <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox</a>.</li>
+          </ul>
+        </div>
+      </div>
+        
+      <div class="concept" id="lesson-2-5">
+        <h2 class="concept-title">Code, Test, Refine</h2>
+        <div class="concept-description">
+          <p>
+            First you need to get the structure of the page right. Use the design to do this. Then move on and work on the tags. Then think about the size of the boxes and where to put them on the screen.
+          </p>
+          <ol>
+            <li>Look for natural boxes.</li>
+            <li>Look for repeated styles and semantic elements. Ex. h2 should be the second biggest element on the page.</li>
+            <li>Write your HTML.</li>
+            <li>Apply styles. (Go from the BIGGEST to the smallest)</li>
+            <li>Fix things. Ex. look at your site in different browsers.</li>
+          </ol> 
+        </div>
+      </div>
+    </div>
+  </div>    
+</body>
+    
+    
+    
+    
+    
+  </body>
+</html>
